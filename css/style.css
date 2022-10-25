@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    height: 50vh;
+    padding: 4.8vh 0 4.8vh 4.8vh;
+}
+
+div.scrollmenu div.card {
+    display: inline-block;
+    width: 40vh;
+    margin-right: 4.8vh;
+    border: solid 1px rgba(255, 255, 255, 0.363);
+}
+
+header {
+    height: 25vh;
+}
+
+footer {
+    height: 25vh;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer img {
+    width: 8%;
+}
+
+header h1 {
+    padding: 0%;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
